@@ -1,0 +1,80 @@
+[data-theme='light'] {
+  --background: #fff;
+  --color-text: #313131;
+  --accent: #1481ff;
+
+  --background-revers: #0e0e0e;
+  --color-text-revers: #fff;
+
+  --galaxy-background: #171717;
+  --galaxy-active-text: #ffffff;
+  --galaxy-hover-item:  rgb(0 0 0 / 6%);
+
+  --background-page-header-fixed: rgba(14, 14, 14, 0.81);
+  --galaxy-active-text-fixed: #0e0e0e;
+  --color-text-page-header-fixed: #fff;
+  --galaxy-hover-item-fixed:  rgb(255 255 255 / 10%);
+  --color-header-page-fixed-one: #ebebeb;
+  --color-header-page-fixed-two: #3a3a3a;
+  --gradient-artist-fixed: rgba(255, 255, 255, 0.3);
+
+  --background-burger: #404040;
+  --color-burger: #424242;
+  --color-burger-open: #cdcdcd;
+  --color-burger-fixed: #ebebeb;
+
+  --background-skills: #f7f7f7;
+  --border-color-skills: #c8c8c8;
+
+  --background-menu: #0e0e0e;
+  --color-menu: #fff;
+  --border-color-menu: rgba(40, 40, 40, 0.59);
+
+  --border-color-ui: #ececec;
+
+  --border-all-view: #e8e8e8;
+  --background-frame: #f6f6f7;
+
+  --color-shadow-portfolio: rgba(0, 0, 0, 0.18);
+
+  --color-border-ui: #ddd;
+
+  // audio player
+  --background-audio-player: #2d2d2d;
+  --color-text-audio-player: #fff;
+
+  // chart
+  --background-chart: #1d1d1d;
+  --color-text-chart: #fff;
+  --accent-chart: #1481ff;
+  --color-border-chart: #3d3d3d;
+  --background-price-chart: #0e0e0e;
+  --color-rpice-chart: #fff;
+
+  // weather
+  --background-weather: #2d2d2d;
+  --color-text-weather: #fff;
+  --background-selected-weather: #454545;
+  --background-selector-weather: #111;
+  --background-selector-active-weather: #2a2a2a;
+
+  // clock
+  --background-clock: #1c1c1e;
+  --background-round-clock: #343436;
+  --color-clock: #f6f5f8;
+  --accent-clock: orange;
+
+  // menu ui
+  --background-menu-ui: #2d2d2d;
+  --background-menu-ui-active: #fff;
+  --color-text-menu-ui: #fff;
+  --color-text-menu-ui-active: #000;
+
+  // tooltip
+  --background-tooltip: #232323;
+  --color-text-tooltip: #f8f8f8;
+
+  // button hover
+  --color-button-hover: #000;
+  --color-button-hover-second: #fff;
+}

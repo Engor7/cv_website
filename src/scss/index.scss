@@ -1,0 +1,91 @@
+@import "themes/dark-theme";
+@import "themes/light-theme";
+@import "colors";
+@import "media";
+@import "animation";
+
+html {
+  overflow-y: scroll;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background: $background;
+  color: $color-text;
+}
+
+p {
+  font-size: 16px;
+  line-height: 160%;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 23px;
+}
+
+h3 {
+  font-size: 46px;
+  margin-bottom: 26px;
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.container-block-main {
+  padding-top: 160px;
+}
+
+@media screen and (max-width: 1220px) {
+  body, p {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 23px;
+    margin-bottom: 18px;
+  }
+
+  h3 {
+    font-size: 46px;
+    margin-bottom: 20px;
+  }
+
+  .container-block-main {
+    padding-top: 70px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body, p {
+    font-size: 13px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+
+  h3 {
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+
+  h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .container-block-main {
+    padding-top: 40px;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
