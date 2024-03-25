@@ -35,13 +35,14 @@ import ButtonHover from '@/components/uiLib/buttonHover.vue';
     </div>
     <div class="start-block__info">
       <div class="start-block__info-contacts">
-        <a href="https://t.me/egor_erygin">Telegram</a>
-        <a href="mailto:contact@egorjs.ru">contact@egorjs.ru</a>
+        <a href="https://github.com/Engor7" target="_blank">GitHub</a>
+        <a href="https://t.me/egor_erygin" target="_blank">Telegram</a>
+        <a href="mailto:contact@egorjs.ru" target="_blank">contact@egorjs.ru</a>
       </div>
       <div class="start-block__info-sub">
         <span>{{ $t('portfolio') }}</span>
         <i class="text-line"></i>
-        <span>© 2024</span>
+        <span>© {{ new Date().getFullYear() }}</span>
       </div>
     </div>
   </div>
