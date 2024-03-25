@@ -1,10 +1,10 @@
-<h3 style="text-align: center;">
+<h3 align="center">
     <samp>Hello!, I am
         <b><a target="_blank" href="https://egorjs.ru">Egor</a></b>
     </samp>
 </h3>
 
-<p style="text-align: center;"> 
+<p align="center"> 
     <samp>
         <br>
             I am a Frontend developer with skills in UX/UI design and extensive experience in web development.
@@ -13,7 +13,7 @@
     </samp>
 </p>
 
-<p style="text-align: center;">
+<p align="center">
     <a href="https://t.me/egor_erygin" target="_blank">
       <img src="https://egorjs.ru/git_images/telegram_git.svg?id=2" alt="Telegram"/>
      </a>
