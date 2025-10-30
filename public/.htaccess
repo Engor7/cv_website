@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  
+  # Если запрашиваемый файл или директория существуют, отдаем их
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  
+  # Для всех остальных запросов отдаем index.html
+  RewriteRule . /index.html [L]
+</IfModule>
+
+# Fallback на 404.html если mod_rewrite не доступен
+ErrorDocument 404 /404.html
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+    <script>
+      (function redirectToSpaRoot() {
+        try {
+          var redirectPath = window.location.pathname + window.location.search + window.location.hash;
+          sessionStorage.setItem('spa-fallback-redirect', redirectPath);
+        } catch (error) {
+          console.error('Unable to persist redirect path', error);
+        }
+
+        var base = '/';
+        if (document.baseURI) {
+          try {
+            var baseUrl = new URL(document.baseURI);
+            base = baseUrl.pathname || '/';
+          } catch (e) {
+            base = '/';
+          }
+        }
+
+        if (!base.endsWith('/')) {
+          base += '/';
+        }
+
+        var target = base;
+        if (!target.startsWith('/')) {
+          target = '/' + target;
+        }
+
+        window.location.replace(target);
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
+
