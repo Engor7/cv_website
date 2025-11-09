@@ -5,12 +5,8 @@
   </p>
   
   <p>
-    <a href="https://t.me/egor_erygin" target="_blank">
-      <img src="https://egorjs.ru/git_images/telegram_git.svg?id=2" alt="Telegram"/>
-    </a>
-    <a href="https://egorjs.ru/" target="_blank">
-      <img src="https://egorjs.ru/git_images/website_git.svg?id=2" alt="Website" />
-    </a>
+    <a href="https://t.me/egor_erygin" target="_blank"><img src="https://egorjs.ru/git_images/telegram_git.svg?id=2" alt="Telegram"/></a>
+    <a href="https://egorjs.ru/" target="_blank"><img src="https://egorjs.ru/git_images/website_git.svg?id=2" alt="Website" /></a>
   </p>
 
   <p>
