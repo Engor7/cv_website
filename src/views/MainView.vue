@@ -7,6 +7,7 @@ import StartMain from '@/components/MainPage/StartMain.vue';
 import SkillsMain from '@/components/MainPage/SkillsMain.vue';
 import ExperienceMain from '@/components/MainPage/ExperienceMain.vue';
 import PortfolioMain from '@/components/MainPage/PortfolioMain.vue';
+import FooterMain from '@/components/footer/FooterMain.vue';
 
 const route = useRoute();
 const router = useRouter();
@@ -68,6 +69,7 @@ onUnmounted(() => {
     <div id="portfolio" :ref="addBlock">
       <PortfolioMain />
     </div>
+    <FooterMain />
   </div>
 </template>
 
