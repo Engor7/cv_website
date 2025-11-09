@@ -6,6 +6,10 @@ import MenuUi from '@/components/uiLib/menuUi.vue';
 import ClockRound from '@/components/uiLib/ClockRound.vue';
 import GalleryUsers from '@/components/uiLib/galleryUsers.vue';
 import ButtonHover from '@/components/uiLib/buttonHover.vue';
+import IconMail from '@/components/icons/IconMail.vue';
+import IconTelegram from '@/components/icons/IconTelegram.vue';
+import IconCodepen from '@/components/icons/IconCodepen.vue';
+import IconGitHub from '@/components/icons/IconGitHub.vue';
 </script>
 
 <template>
@@ -35,9 +39,22 @@ import ButtonHover from '@/components/uiLib/buttonHover.vue';
     </div>
     <div class="start-block__info">
       <div class="start-block__info-contacts">
-        <a href="https://github.com/Engor7" target="_blank">GitHub</a>
-        <a href="https://t.me/egor_erygin" target="_blank">Telegram</a>
-        <a href="mailto:contact@egorjs.ru" target="_blank">contact@egorjs.ru</a>
+        <a href="https://github.com/Engor7" target="_blank">
+          <IconGitHub size="18" />
+          <span>GitHub</span>
+        </a>
+        <a href="https://codepen.io/egor_erygin" target="_blank">
+          <IconCodepen size="18" />
+          <span>Codepen</span>
+        </a>
+        <a href="https://t.me/egor_erygin" target="_blank">
+          <IconTelegram size="18" />
+          <span>Telegram</span>
+        </a>
+        <a href="mailto:contact@egorjs.ru" target="_blank">
+          <IconMail size="18" />
+          <span>contact@egorjs.ru</span>
+        </a>
       </div>
       <div class="start-block__info-sub">
         <span>{{ $t('portfolio') }}</span>
@@ -128,6 +145,15 @@ import ButtonHover from '@/components/uiLib/buttonHover.vue';
     display: flex;
     flex-direction: column;
     gap: 10px;
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+
+      span {
+      }
+    }
   }
 
   &__info-sub {
