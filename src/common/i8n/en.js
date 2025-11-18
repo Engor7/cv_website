@@ -40,14 +40,58 @@ export default {
   skillsAnother:
     'BEM, SEO basics, design theory, history of art, identity, color theory, photography, color correction, retouching, blind method of printing, vim (IntelliJ IDEA, VSC).',
 
+  expEcosContent: `
+    <p>Responsible for the development of a <b>Telegram Mini App</b> — including application architecture, design system, and interface creation.</p>
+    <p>The app is designed for purchasing and renting ASIC miners, with multiple top-up options: via bank transfers, TON, and Bitcoin. Implemented payments in TON and via Telegram Start App.</p>
+  
+    <p class="mb-4">Key functionality included:</p>
+    <ul>
+      <li>Dashboard and asset monitoring, income statistics;</li>
+      <li>Referral program and user account with profile settings;</li>
+      <li>Profitability calculators and an equipment marketplace;</li>
+      <li>Authorization, registration, password recovery, and 2FA authentication;</li>
+      <li>Multilingual support and light/dark themes.</li>
+    </ul>
+    <p class="mb-4">Also developed the Backoffice — an admin panel for managing the company’s entire project infrastructure:</p>
+    <ul>
+      <li>Configuring banners on the website and in the app, managing stories and products (including ASIC sales);</li>
+      <li>Editor for profitability calculator parameters;</li>
+      <li>Custom UI Kit and component library consistent with the company’s design system;</li>
+      <li>Multilingual support, light/dark themes, authentication, and admin role management.</li>
+    </ul>
+    <p>Additionally, created new pages and maintained existing functionality on WordPress.<br>
+    Occasionally contributed to backend support (Node.js, Nest.js, PHP).</p>
+  `,
+
+  expAdsCity: `
+    <p>
+      I was involved in the development and maintenance of websites using Nuxt 3. One of the key projects was a promo code page for T-Bank. I also participated in creating promo code systems for clients worldwide.
+    </p>
+    <p>
+      Additionally, I developed browser extensions for Chrome and Firefox, built a review website, and worked on a marketplace-style project. My main responsibilities included developing user interfaces, integrating with APIs, and optimizing frontend performance.
+    </p>
+  `,
+
   expContent:
     'My overall web development experience exceeds 8 years. My interest in programming, and in web development in particular, began during my school years.',
   expOsHeader: "Educational online platform 'Open School'",
-  expOsContent:
-    "Frontend developer. Supporting the existing version of the platform. Developing a new version of the platform with a complete redesign. Creating adaptive layouts for complex Vue components, working with data and APIs. Prototyping new pages and designing within the framework of the platform's new design system. One of the most interesting aspects for me was the development of video and audio players, text editors, calendars, and complex data tables.",
+  expOsContent: `
+    <p>
+      I worked on maintaining the existing version of the platform and developing a new one, including a complete interface redesign. My responsibilities included implementing responsive layouts for complex Vue components, integrating with APIs, and handling data.
+    </p>
+    <p>
+      I also participated in prototyping new pages and creating designs within the framework of the platform’s new design system. Some of the most interesting tasks included developing video and audio players, a text editor, as well as calendars and interactive tables for data management.
+    </p>
+  `,
   expFreeHeader: 'Private Practice',
-  expFreeContent:
-    'Layout of adaptive websites of various complexity. Development of websites using CMS WordPress and Bitrix. In total, I have developed more than 60 websites in just over 5 years. I collaborated mainly with private clients, but also worked with web studios and companies.',
+  expFreeContent: `
+    <p>
+      I was responsible for developing responsive websites of varying complexity and creating projects on CMS platforms such as WordPress and Bitrix. Over a period of just over five years, I built more than 60 websites.
+    </p>
+    <p>
+      In addition to CMS-based solutions, I developed a custom PHP engine and worked with Node.js to create server-side logic. I primarily collaborated with private clients, as well as with web studios and companies.
+    </p>
+  `,
   expAdd:
     'A part of my experience was gained through the process of developing web applications, driven not by commercial interests but by curiosity. A special satisfaction for me is the realization that I have managed to create a software solution that previously seemed complex to me.',
 

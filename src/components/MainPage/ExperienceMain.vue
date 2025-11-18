@@ -32,15 +32,39 @@ const toggleShowAll = () => {
           </p>
         </div>
         <div class="exp-main__block">
+          <h4>ECOS Bitcoin Mining Ecosystem</h4>
+          <div class="exp-main__info">
+            <b>Frontend-разработчик</b>
+            <span>Июнь 2024 — сейчас (1 год и 6 месяцев)</span>
+          </div>
+          <div class="exp-main__exp" v-html="$t('expEcosContent')" />
+        </div>
+        <div class="exp-main__block">
+          <h4>CityAds Media</h4>
+          <div class="exp-main__info">
+            <b>Frontend-разработчик</b>
+            <span>Март 2024 — Сентябрь 2024 (7 месяцев)</span>
+          </div>
+          <div class="exp-main__exp" v-html="$t('expAdsCity')" />
+        </div>
+        <div class="exp-main__block">
           <h4>{{ $t('expOsHeader') }}</h4>
-          <p>{{ $t('expOsContent') }}</p>
+          <div class="exp-main__info">
+            <b>Frontend-разработчик, Дизайнер</b>
+            <span>Февраль 2023 — Январь 2024 (1 год)</span>
+          </div>
+          <div class="exp-main__exp" v-html="$t('expOsContent')" />
         </div>
         <div class="exp-main__block">
           <h4>{{ $t('expFreeHeader') }}</h4>
-          <p>{{ $t('expFreeContent') }}</p>
+          <div class="exp-main__info">
+            <b>Frontend-разработчик, иногда Fullstack</b>
+            <span>Март 2017 — Декабрь 2022 (5 лет и 10 месяцев)</span>
+          </div>
+          <div class="exp-main__exp" v-html="$t('expFreeContent')" />
         </div>
         <div class="exp-main__block">
-          <p>{{ $t('expAdd') }}</p>
+          <div class="exp-main__exp">{{ $t('expAdd') }}</div>
         </div>
       </div>
     </div>
@@ -59,7 +83,7 @@ const toggleShowAll = () => {
   &__blocks {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 35px;
+    grid-gap: 48px;
   }
 
   &__block {
@@ -71,9 +95,50 @@ const toggleShowAll = () => {
       grid-column: span 2;
     }
 
+    h4 {
+      margin-bottom: 0;
+    }
+
     p {
       opacity: 0.8;
       font-size: 14px;
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 14px;
+    margin: 16px 0 24px 0;
+    opacity: 0.6;
+
+    b {
+      font-weight: 500;
+    }
+  }
+
+  &__exp {
+    font-size: 14px;
+    line-height: 160%;
+
+    :deep(p),
+    :deep(ul) {
+      font-size: 14px;
+      line-height: 160%;
+      margin-bottom: 12px;
+
+      &.mb-4 {
+        margin-bottom: 4px;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    :deep(ul) {
+      padding-left: 15px;
     }
   }
 
@@ -93,21 +158,6 @@ const toggleShowAll = () => {
     svg {
       stroke: $color-text;
       width: 15px;
-    }
-  }
-
-  @media screen and (max-width: 1240px) {
-    &__blocks {
-      gap: 30px;
-    }
-
-    &__block {
-      padding: 0;
-
-      &:nth-child(3),
-      &:nth-child(2) {
-        grid-column: span 2;
-      }
     }
   }
 
@@ -140,6 +190,11 @@ const toggleShowAll = () => {
       transform-origin: top;
       padding-bottom: 30px;
       transition: all 0.3s;
+    }
+
+    &__block {
+      padding: 0;
+      grid-column: span 2;
     }
 
     &__show-more {
